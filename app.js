@@ -408,6 +408,45 @@
 // square(n1*n1)
 
 
+// QUESTION NO 6
+// function factorial(){
+// var a = prompt("Type number for Factorial") 
+// fact = 1
+// var i = 1
+// for (var i=1; i<a; i++ ){
+// fact = fact*i
+// }
+// console.log(fact)
+// }
+// factorial()
+
+// QUESTION NO 7
+// function displayCounting(){
+//     var a = prompt("Type First Value")
+//     var a1 = prompt("Type Second Value")
+// for (var i=a; i<a1; i++)
+// console.log(i )
+// }
+// displayCounting()
+
+// QUESTION NO 8
+// function calclateHypnotenuse(){
+//        var base = 20;
+//         var perpendicular = 20
+//         var square = (base*base) + (perpendicular*perpendicular )
+//         var hypotenuse = square*square
+//         console.log( hypotenuse );
+//     function calculateSquare(base, perpendicular){ 
+//             var base = 20;
+//             var perpendicular = 20
+//             var square = (base*base) + (perpendicular*perpendicular )
+//     console.log( square  );     
+// }
+// calculateSquare()
+// }
+// calclateHypnotenuse()
+
+
 // QUESTION NO 9
 // function Area(){
 //     document.write("Area of rectangle is : " + c)
@@ -421,13 +460,27 @@
 // QUESTION NO 10
 // var word = prompt("")
 // var check ="";
-// for (var i = word.length -1; i >= o; i--){
+// for (var i = word.length -1; i >= 0; i--){
 //     check += word[i]
-// }
+// } 
 // if(word === check){
-//     document.write(word + "is a palindrome word")
+//     document.write(word + " is a palindrome word ")
 // }
 
+
+// QUESTION NO 11
+// function firstLetterConversion(){
+//     var string = "the quick browm fox"
+//      var newstring = string.split(" ");
+//     document.write("Example String : " + newstring + "<br>")
+//     for (var i = 0; i < newstring.length ; i++){
+//      newstring1 = newstring[0].slice(0, 1).toUpperCase();
+// newstring2 = newstring[0].slice(1).toLowerCase();
+// }
+//     document.write( "Expected String : " + newstring1 + newstring2 )
+//     }
+//     firstLetterConversion();
+    
 
 // QUESTION NO 12
 // function longWord(str){
